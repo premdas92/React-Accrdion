@@ -1,0 +1,24 @@
+.accordian-block-wrapper {
+    width: 60%;
+    margin: 0 auto;
+  .accordian-inner-wrapper {
+    text-align: left;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    .tile {
+      color: #007bff;
+      font-size: 25px;
+      padding: 12px 20px;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      cursor: pointer;
+      .symbol{
+          float: right;
+      }
+    }
+    .body{
+        padding: 20px;
+        font-size: 18px;
+    }
+  }
+}
